@@ -27,7 +27,7 @@ export default function FocusModeScreen() {
       {/* Button */}
       <TouchableOpacity
         style={styles.button}
-        onPress={() => router.push("/home")} //replace with actual home screen route
+        onPress={() => router.push("/app/dashboard")} //replace with actual home screen route
       >
         <Text style={styles.buttonText}>Start Getting It Done</Text>
       </TouchableOpacity>
