@@ -7,7 +7,7 @@ export default function HowToUseScreen() {
 
   const handleNext = () => {
     // This will navigate to the next screen (replace "next-screen" with your actual route)
-    router.push("/next-screen");
+    router.push("/app/focus-mode-screen");
   };
 
   return (

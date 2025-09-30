@@ -19,7 +19,7 @@ export default function WelcomeScreen() {
       {/* Get Started Button */}
       <TouchableOpacity 
         style={styles.button} 
-        onPress={() => router.push("//tabs/app/next")}
+        onPress={() => router.push("/app/next")}
       >
         <Text style={styles.buttonText}>Get Started</Text>
       </TouchableOpacity>
